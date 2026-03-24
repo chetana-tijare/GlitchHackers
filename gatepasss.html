@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gate Pass</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <h2>HostelSync</h2>
+  <a href="index.html">Dashboard</a>
+  <a href="gatepass.html">Gate Pass</a>
+  <a href="complaints.html">Complaints</a>
+  <a href="rooms.html">Rooms</a>
+  <a href="mess.html">Mess</a>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="topbar">
+    <h1><i class="fa-solid fa-door-open"></i> Gate Pass</h1>
+    <div>👤 Admin</div>
+  </div>
+
+  <!-- FORM -->
+  <div class="card">
+    <h3>Request Gate Pass</h3>
+
+    <input id="name" placeholder="Enter Name">
+    <input id="reason" placeholder="Enter Reason">
+
+    <button onclick="addPass()">Submit</button>
+  </div>
+
+  <!-- LIST -->
+  <div class="card" style="margin-top:20px;">
+    <h3>Gate Pass Records</h3>
+    <ul id="list"></ul>
+  </div>
+
+</div>
+
+<script src="js/gatepass.js"></script>
+</body>
+</html>

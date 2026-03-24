@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complaints</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>HostelSync</h2>
+  <a href="index.html">Dashboard</a>
+  <a href="gatepass.html">Gate Pass</a>
+  <a href="complaints.html">Complaints</a>
+  <a href="rooms.html">Rooms</a>
+  <a href="mess.html">Mess</a>
+</div>
+
+<div class="main">
+
+  <div class="topbar">
+    <h1>Complaints</h1>
+  </div>
+
+  <!-- FORM CARD -->
+  <div class="card">
+    <h3>Raise Complaint</h3>
+    
+    <input id="complaint" placeholder="Enter complaint"><br><br>
+    
+    <button onclick="addComplaint()">Submit</button>
+  </div>
+
+  <!-- LIST CARD -->
+  <div class="card" style="margin-top:20px;">
+    <h3>All Complaints</h3>
+    <ul id="list"></ul>
+  </div>
+
+</div>
+
+<script src="js/complaints.js"></script>
+</body>
+</html>
