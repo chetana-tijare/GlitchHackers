@@ -1,126 +1,90 @@
 # 🏨 HostelSync – Smart Hostel Operations Platform
 
-HostelSync is a full-stack web and mobile-friendly platform designed to digitize hostel management. It replaces manual registers and scattered WhatsApp communication with one unified system.
+## 📌 Project Description
+
+HostelSync is a web-based hostel management system designed to digitize daily hostel operations. It replaces manual registers and scattered communication with a centralized dashboard for wardens and students. The platform improves efficiency, communication, and transparency in hostel management.
 
 ---
 
-# 📌 Problem
+## ❗ Problem Statement
 
-Hostel wardens currently manage:
-
-* Attendance using registers
-* Gate passes manually
-* Visitor logs on paper
-* Mess feedback informally
-* Room allocation manually
-
-This leads to:
-
-* Operational chaos
-* Delays in approvals
-* Poor communication with parents
-* No real-time tracking
+Hostel wardens manage attendance, gate passes, visitor logs, and mess feedback through registers and WhatsApp groups — creating operational chaos. Build a unified hostel operations platform with digital gate pass approvals, parent SMS notifications, real-time room allocation, and mess menu voting.
 
 ---
 
-# 💡 Solution
+## 🚀 Features and Functionality
 
-HostelSync provides a centralized platform where wardens and students can manage hostel operations digitally.
+### Core Features
 
-Main goals:
-
-* Reduce manual work
-* Improve student safety
-* Provide real-time tracking
-* Simplify communication
-
----
-
-# 🚀 Features
-
-### 🔐 Authentication
-
-* Student login
-* Warden login
-* Secure access using role-based system
-
-### 🚪 Digital Gate Pass
-
-* Students request gate pass
-* Warden approves/rejects
-* Entry and exit tracking
-* Status updates in real time
-
-### 👨‍🎓 Student Information Dashboard
-
-* Student details
-* Room number
-* Contact information
-* Attendance overview
-
-### 🧑‍🤝‍🧑 Visitor Information
-
-* Add visitor details
-* Entry and exit time tracking
-* Visitor logs for security
-
-### 🛏️ Real-Time Room Allocation
-
-* View available rooms
-* Assign students to rooms
-* Room occupancy tracking
-
-### 🍽️ Mess Menu Voting
-
-* Students vote for meals
-* Popular dish selection
-* Feedback collection
-
-### 🛠️ Complaints & Service Requests
-
-* Students raise complaints
-* Warden tracks issues
-* Status updates (Pending / Resolved)
+* Student dashboard
+* Visitor information tracking
+* Mess menu voting system
+* Complaint submission and status tracking
+* Room allocation management
+* Activity dashboard with charts
 
 ---
 
-# 🏗️ Tech Stack
+## 🛠 Tech Stack Used
 
-## Frontend
+### Frontend
 
 * HTML
 * CSS
-* Javascript
+* JavaScript
+
+### UI Frameworks
+
+* Bootstrap
+
+### Version Control
+
+* GitHub
 
 ---
 
-# 🎯 How It Works
+## ⚙️ Setup / Installation Instructions
 
-1. Student logs in
-2. Student requests gate pass
-3. Warden approves request
-4. Room allocation managed
-5. Students vote for mess menu
-6. Complaints submitted and resolved
+1. Download or clone the repository
+2. Extract the project folder
+3. Open the folder
+4. Run the `index.html` file in any browser
 
----
-
-# 📈 Benefits
-
-* Reduces manual work by 70%
-* Improves hostel management efficiency
-* Enhances student safety
-* Provides real-time updates
-* Simplifies communication
+No additional installation required.
 
 ---
 
-# 🔮 Future Scope
+## 👨‍💻 Team Details
 
-* QR code entry system
-* SMS notifications to parents
-* AI-based mess recommendations
-* Biometric attendance
+Team Name : GlitchHackers
+
+Members:
+
+* Frontend Development
+* Backend Logic & JavaScript
+*  UI Design
+* Presentation & Documentation
+
+---
+
+## 🔮 Future Scope
+
+* Parent SMS notification integration
+* Authentication system (Student/Warden login)
+* AI-based mess recommendation
 * Multi-hostel support
+* Mobile app version
 
 ---
+
+## 🎯 Project Goal
+
+To simplify hostel operations by providing a centralized digital platform for managing gate passes, room allocation, complaints, visitor tracking, and mess voting.
+
+---
+
+## 🏆 Hackathon Project
+
+This project is developed as part of a hackathon to demonstrate how digital technology can improve hostel management systems.
+
+##
