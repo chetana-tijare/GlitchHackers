@@ -88,9 +88,9 @@ Main goals:
 
 ## Frontend
 
-* React.js
-* Tailwind CSS
-* 
+* HTML
+* CSS
+* Javascript
 
 ---
 
@@ -124,6 +124,3 @@ Main goals:
 * Multi-hostel support
 
 ---
-# 📄 License
-
-This project is for educational and hackathon purposes.
