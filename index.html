@@ -1,39 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>HostelSync</title>
-    <link rel="stylesheet" href="style.css">
+  <title>HostelSync Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1>🏠 HostelSync</h1>
+<div class="sidebar">
+  <h2>HostelSync</h2>
+  <a href="index.html">Dashboard</a>
+  <a href="gatepass.html">Gate Pass</a>
+  <a href="complaints.html">Complaints</a>
+  <a href="rooms.html">Rooms</a>
+  <a href="mess.html">Mess</a>
+</div>
 
-    <!-- Gate Pass Section -->
-    <div class="container">
-        <h2>Gate Pass System</h2>
+<div class="main">
 
-        <!-- Form -->
-        <input type="text" id="studentName" placeholder="Enter Name">
-        <input type="text" id="reason" placeholder="Enter Reason">
-        <button onclick="addGatePass()">Submit</button>
+  <div class="topbar">
+    <h1>Dashboard</h1>
+    <div>👤 Admin</div>
+  </div>
 
-        <!-- List -->
-        <div id="gatePassList"></div>
+  <div class="cards">
+
+    <div class="card" onclick="openStudents()">
+      👨‍🎓 Total Students
+      <h2>120</h2>
     </div>
 
-    <!-- Complaint Section -->
-    <div class="container">
-        <h2>Complaint System</h2>
-
-        <!-- Input -->
-        <input type="text" id="complaintInput" placeholder="Enter Complaint">
-        <button onclick="addComplaint()">Submit</button>
-
-        <!-- List -->
-        <div id="complaintList"></div>
+    <div class="card" onclick="openGatePass()">
+      🚪 Gate Pass
+      <h2 id="passCount">0</h2>
     </div>
 
-    <script src="script.js"></script>
+    <div class="card" onclick="openComplaints()">
+      ⚠ Complaints
+      <h2 id="complaintCount">0</h2>
+    </div>
+
+    <div class="card">
+      🍽 Satisfaction
+      <h2>75%</h2>
+    </div>
+
+  </div>
+
+  <!-- 🔥 ACTIVITY SECTION -->
+  <div class="card" style="margin-top:20px;">
+    <h3>📊 Recent Activity</h3>
+    <ul id="activityList"></ul>
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
