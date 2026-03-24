@@ -1,0 +1,72 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Container Cards */
+.container {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Button Colors */
+button:hover {
+    opacity: 0.9;
+}
+
+.approve {
+    background: green;
+}
+
+.reject {
+    background: red;
+}
+
+.pending {
+    background: orange;
+}
+
+.resolve {
+    background: blue;
+}
+
+/* Card Items */
+.card {
+    background: #fafafa;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
